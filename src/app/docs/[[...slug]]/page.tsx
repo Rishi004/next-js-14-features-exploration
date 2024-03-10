@@ -1,5 +1,3 @@
-import React from "react";
-
 function page({ params }: { params: { slug: string[] } }) {
     if (params.slug?.length === 2) {
         return (
