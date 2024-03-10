@@ -17,7 +17,7 @@ export default function RootLayout({
                         padding: "1rem"
                     }}
                 >
-                    Header
+                    <p>Header</p>
                 </header>
                 {children}
                 <footer
@@ -26,7 +26,7 @@ export default function RootLayout({
                         padding: "1rem"
                     }}
                 >
-                    Footer
+                    <p>Footer</p>
                 </footer>
             </body>
         </html>
