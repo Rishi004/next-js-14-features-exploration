@@ -1,4 +1,4 @@
-function page({ params }: { params: { slug: string[] } }) {
+export default function page({ params }: { params: { slug: string[] } }) {
     if (params.slug?.length === 2) {
         return (
             <h1>
@@ -11,5 +11,3 @@ function page({ params }: { params: { slug: string[] } }) {
     }
     return <h1>Docs home page</h1>;
 }
-
-export default page;
